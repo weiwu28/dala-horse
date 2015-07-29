@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # add this line to solve an error on Window
 gem 'coffee-script-source', '1.8.0'
+
+#gem 'wdm', '>= 0.1.0' if Gem.win_platform?
