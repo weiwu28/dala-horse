@@ -23,6 +23,7 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'puma',           '2.11.1' # use Puma instead of the default WEBrick webserver
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
