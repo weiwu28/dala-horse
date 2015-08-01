@@ -1,1 +1,4 @@
-
+wei:
+  name: Wei Wu
+  email: weiwu28@gmail.com
+  password_digest: <%= User.digest('fruitbar') %>
